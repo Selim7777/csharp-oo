@@ -175,9 +175,9 @@ Si on part de la solution de l'exercice 2, quelles sont les lignes suivantes qui
 
 ```csharp
 IForme forme1 = new Rectangle(2,3);
-IForme forme2 = new Cercle(4,5);
+IForme forme2 = new Cercle(5);
 Rectangle rectangle = new Rectangle(6,7);
-Cercle cercle = new Cercle(1,2);
+Cercle cercle = new Cercle(2);
 
 forme1.CalculerAire();
 forme2.CalculerAire();
